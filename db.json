@@ -1,0 +1,47 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "username": "user1",
+        "title": "Post title 1",
+        "description": "Provident possimus beatae porro. Est et qui sit aut veritatis vero et. Tempore aut porro qui unde. Exercitationem ullam architecto nisi molestiae saepe.",
+        "image": "/image.png"
+      },
+      {
+        "id": 2,
+        "username": "user2",
+        "title": "Post title 2",
+        "description": "Dicta deserunt placeat. Et est eum aut quasi. Velit sed quos vel consequatur quod cum voluptatem explicabo vero. Quia eius sapiente ut a tenetur temporibus. Voluptatem quo tempora ea voluptas aut tenetur aut vitae non. Ut voluptatibus non quis et.",
+        "image": "/image2.jpg"
+      },
+      {
+        "id": 3,
+        "username": "user3",
+        "title": "Post title 3",
+        "description": "Qui eveniet rerum aliquam amet consequatur. Quisquam in pariatur dignissimos sunt qui neque cumque aut ut. Voluptate earum quia ab enim qui rerum inventore. Sapiente deleniti sed. Delectus velit autem libero veniam sit eum molestiae mollitia eveniet. Omnis distinctio sunt doloremque facilis quidem.",
+        "image": "/image3.jpg"
+      },
+      {
+        "id": 4,
+        "username": "user4",
+        "title": "Post title 4",
+        "description": "Sit inventore quo. Magnam omnis numquam accusantium architecto omnis enim. Culpa in rem aliquid molestias enim nulla. Sed est praesentium consequatur. Autem aspernatur provident quia aut id dolor omnis facilis molestiae. Est consequatur voluptatibus aliquid qui omnis vitae deleniti in.",
+        "image": "/image4.jpg"
+      },
+      {
+        "id": 5,            
+        "username": "user5",
+        "title": "Post title 5",
+        "description": "Et explicabo porro repudiandae libero quae et id commodi. Alias omnis cum. Fuga harum vitae nesciunt. Sunt sed rem. Eius voluptatum occaecati nobis rerum et.",
+        "image": "/image5.jpg"
+      },
+      {
+        "id": 6,
+        "username": "user6",
+        "title": "Post title 6",
+        "description": "Veritatis eaque ut corporis possimus. Sunt saepe inventore laborum omnis. Consequatur explicabo nihil saepe rerum quo. Aliquam consequatur eligendi est temporibus ut quia veritatis. Vitae laborum minus praesentium voluptatem. Doloribus et quia fuga modi.",
+        "image": "/image6.jpg"
+      }
+    ]
+  }
+  
