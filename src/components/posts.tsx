@@ -11,7 +11,7 @@ type PostsProps = {
 
 const getPosts = async () => {
   const response = await axios.get<PostsProps[]>("http://localhost:3000/posts");
-  console.log(response);
+  // console.log(response);
   return response.data;
 };
 

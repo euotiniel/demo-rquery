@@ -20,7 +20,7 @@ export default function Page() {
     const response = await axios.get<PostProps>(
       `http://localhost:3000/posts/${id}`
     );
-    console.log("Aqui", response);
+    // console.log("Aqui", response);
     return response.data;
   };
 
@@ -34,7 +34,7 @@ export default function Page() {
       <Navigate title="Learn" />
       <div className="py-10 px-10 md:px-52 lg:px-[300px] xl:px-[450px]">
         <h1 className="text-lg font-semibold">Post {data?.id}</h1>
-        <span className="opacity-45 text-sm">
+        <span className="opacity-45 text-xs">
           March 23, 2024 by @{data?.username}
         </span>
         <img
