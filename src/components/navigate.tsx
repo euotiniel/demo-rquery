@@ -15,9 +15,6 @@ export default function navigate({title} : TitleProps) {
         <Link href="/posts" className="underline p-1 text-sm">
           posts
         </Link>
-        <Link href="/demo" className="underline p-1 text-sm">
-          demo
-        </Link>
         <Link href="/contacts" className="underline p-1 text-sm">
           contacts
         </Link>
