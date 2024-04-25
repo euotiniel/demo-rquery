@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import { Link } from 'next-view-transitions'
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 

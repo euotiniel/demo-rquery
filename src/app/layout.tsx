@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "@/services/queryClient";
+import { ViewTransitions } from 'next-view-transitions'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ViewTransitions> 
     <html lang="en">
       <body className={inter.className}>
         <QueryClientProvider client={queryClient}>
@@ -49,5 +51,6 @@ export default function RootLayout({
         </QueryClientProvider>
         </body>
     </html>
+    </ViewTransitions>
   );
 }
